@@ -147,12 +147,12 @@ class clasif(tk.Frame):
         canvas.place(x=0,y=0) 
         canvas.create_image(1600,900,anchor=CENTER)
         
-        X_train=[]
-        X_test=[]
-        y_train=[]
-        y_test=[]
-        f_name=''
-        l=[0,0,0,0,0,0]
+        #X_train=[]
+        #X_test=[]
+        #y_train=[]
+        #y_test=[]
+        #f_name=''
+        #l=[0,0,0,0,0,0]
         
         # Task with Gui
         lbl = tk.Label(self,font=("Sain Serif",26), bg='#2AB9E9', text="CREATING ALL CLASSIFICATION WITH GUI")
